@@ -1,0 +1,48 @@
+* {
+    margin: 0;padding: 0;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(57, 52, 52);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+#inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+    width: 99%;
+    height: 10vh;
+    font-size: 30px;
+    text-decoration: none;
+}
+.screen{
+    background-color: grey;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    height: 78%;
+    
+}
+button {
+    font-size: 40px;
+    border-radius: 10px;
+}
